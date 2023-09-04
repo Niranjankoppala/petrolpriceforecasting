@@ -5,7 +5,7 @@
 To predict the Price of the Petrol on a particular day
 
 # Performed Tasks
-1.Importing the Dataset
+1. Importing the Dataset
 2. Analysing The data
 3. Converting Date to Day ,Month, and Year using Pd.datetime() function
 4. Using RandomForestRegressor, XGBoost Regressor and Linear Regression machine Learning Algorithms
