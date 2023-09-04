@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		How to get input type date
+		in dd-mm-yyyy format ?
+	</title>
+	
+	<style>
+		body {
+			text-align: center;
+		}
+		h1 {
+			color: green;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Petrol Price Predictor</h1>
+	
+	<h3>
+		Get input date in
+		dd-mm-yyyy format
+	</h3>
+	<form action="\predict" method="post">
+	<label for="Date of Birth">
+		Enter the Date:
+		<input type="date" name="date">
+	</label>
+    <!-- Submit -->
+    <br>
+    <br>
+    <input type="submit" value="Submit" class="btn btn-secondary">
+    </form>
+
+    <br>
+    <br>
+    <h3 >{{ prediction_text }}</h3>
+
+    <br>
+    <br>
+    <p>©2023 Niranjan Koppala</p>
+
+</body>
+
+</html>
+
